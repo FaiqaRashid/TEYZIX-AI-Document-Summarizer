@@ -1,131 +1,57 @@
+# AI-Powered Document Summarization System
 
-##AI-POWERED DOCUMENT SUMMARIZATION SYSTEM
+🚀 **TEYZIX CORE INTERNSHIP PROGRAM — AI & NLP DOMAIN**
+**Task Title:** AI-Powered Document Summarization System  
+**Intern Name:** Faiqa Rashid  
+**Submission Date:** June 19, 2026  
 
+---
 
-DESCRIPTION:
-This is an AI-powered system that automatically summarizes long documents 
-into concise, meaningful summaries while preserving key information. 
-The system uses NLP techniques like tokenization, stopword removal, and 
-frequency-based scoring to extract the most important sentences from any text.
+## 📝 Description
+This is an AI-powered extractive text summarization system that automatically condenses long documents into concise, meaningful summaries while completely preserving vital contextual information. The system utilizes advanced Natural Language Processing (NLP) techniques—including sentence segmentation, word tokenization, stop-word removal, and frequency-based normalization algorithms—to isolate and rank the most critical sentences from any text payload.
 
-Perfect for: Research papers, articles, reports, emails, or any long-form text.
+**🎯 Perfect For:** Research papers, academic articles, corporate reports, news logs, or any dense long-form text.
 
-##HOW TO RUN:
+---
 
+## 🛠️ Features Implemented
 
-1. Install NLTK library:
-   pip install nltk
+### 📥 Multiple Input Methods
+* **Direct Console Input:** Supports dynamic multi-line user text entry directly in the terminal interface (type 'DONE' on a new line to finish).
+* **File Ingestion Pipeline:** Seamlessly reads external text documents (`.txt`) with absolute error handling for missing paths.
 
-2. Run the program:
-   python main.py
+### ⚙️ Advanced Text Preprocessing
+* **Sentence Tokenization:** Highly accurate boundary segmentation using modern NLTK architectures.
+* **Word Tokenization:** Individual token breakdown coupled with consistent lowercase normalization.
+* **Stop-word Invalidation:** Filters out low-value linguistic connectors (removes common words like *"the"*, *"is"*, *"and"*) to capture true topic weights.
+* **Alphanumeric Filtering:** Structural cleaning to strip stray punctuation artifacts.
 
-3. Follow the on-screen menu to choose input method:
-   Option 1: Paste text directly into the console
-   Option 2: Load from a .txt file
+### 🧠 Summarization Logic (Extractive Framework)
+* **Word Frequency Analytics:** Counts occurrence matrices of clean keyword variables using localized counters.
+* **Normalized Weight Ratios:** Math scoring scaled cleanly against the absolute peak frequency word to ensure algorithmic fairness.
+* **Sentence Scoring:** Accumulates normalized word weights to evaluate overall sentence importance.
+* **Adjustable Summary Percentage:** Allows users to input customized length thresholds ranging from 5% to 90%.
+* **Chronological Consistency:** Re-sorts extracted sentences back into their native conversational sequence to preserve logical flow and readability.
 
-4. Enter your desired summary length (e.g., 20%, 30%, 50%)
+### 📊 Output & Export System
+* **Real-time Analytics Report:** Displays a clean dashboard showing original vs. compressed character counters and a reduction percentage metric.
+* **Collision-Free Storage:** Features a dynamic prompt requesting custom names for export logs, completely preventing file overwriting during back-to-back testing.
 
-5. View the summary and export as needed
+---
 
+## 💻 Technical Requirements Satisfied
 
-##FEATURES IMPLEMENTED:
+* **Language Foundation:** Pure Python architecture.
+* **Core NLP Library:** Natural Language Toolkit (`nltk`).
+* **Architecture:** Modular, function-based layout prioritizing single-responsibility principles.
+* **Exception Safeties:** Implements deep try-catch handling blocks covering `FileNotFoundError` and `ValueError`.
+* **Scoring Logic:** Implementation of a lightweight TF-IDF-inspired weighted ranking pipeline.
 
+---
 
-✓ Multiple Input Methods:
-  - Direct user text input from console
-  - Load documents from .txt files
-  - Proper error handling for missing files
+## 🚀 How to Run
 
-✓ Text Preprocessing:
-  - Sentence tokenization (split into sentences)
-  - Word tokenization (split into words)
-  - Lowercasing for consistency
-  - Stopword removal (removes common words like "the", "is", "and")
-  - Alphanumeric filtering
-
-✓ Summarization Logic (Extractive):
-  - Word frequency analysis
-  - Weighted frequency calculation (normalized)
-  - Sentence scoring based on important words
-  - Adjustable summary percentage (5-90%)
-  - Maintains original sentence order
-
-✓ Output System:
-  - Displays side-by-side comparison
-  - Shows reduction statistics
-  - Exports summary to .txt file
-  - Clean, formatted console output
-
-✓ Code Structure:
-  - Modular function-based design
-  - Each function has single responsibility
-  - Clear variable naming
-  - Comprehensive error handling
-
-
-##TECHNICAL REQUIREMENTS SATISFIED:
-
-
-✓ Python language used
-✓ NLTK library for NLP
-✓ Modular function-based architecture
-✓ Clean, readable code with comments
-✓ Error handling for file operations
-✓ Preprocessing: lowercasing, stopwords, tokenization
-✓ Sentence segmentation and ranking
-✓ TF-IDF-inspired weighted scoring
-
-==================================================
-KEY LEARNINGS:
-==================================================
-
-- NLTK tokenization (sentence and word level)
-- Stopword removal and text cleaning
-- Frequency-based importance scoring
-- Working with weighted algorithms
-- File I/O operations with error handling
-- User input validation
-- Algorithm design for NLP tasks
-
-
-##BONUS FEATURES:
-
-
-- Adjustable summary length (5-90% range)
-- Character count reduction statistics
-- Support for multi-line text input
-- UTF-8 encoding for special characters
-- Input validation for percentage range
-
-
-##FILES INCLUDED:
-
-- main.py (Complete source code)
-- sample_document.txt (Example document for testing)
-- output_summary.txt (Generated summary example)
-- README.md (This file)
-
-
-
-##EXAMPLE USAGE:
-
-
-Input: "Artificial Intelligence is transforming industries. 
-Machine learning models are becoming more powerful. Natural 
-Language Processing enables computers to understand human language."
-
-Summary (40%): "Artificial Intelligence is transforming industries. 
-Natural Language Processing enables computers to understand human language."
-
-
-##CHALLENGES ADDRESSED:
-
-
-✓ Handling multi-line text input efficiently
-✓ Filtering out low-value words (stopwords)
-✓ Maintaining readability by preserving sentence order
-✓ Normalizing word frequencies for fair scoring
-✓ Validating user input for summary percentage
-✓ Clean file export with proper encoding
-
-
+### 1. Install Dependencies
+Ensure you have Python installed, then install the NLTK library package via your terminal:
+```bash
+pip install nltk
