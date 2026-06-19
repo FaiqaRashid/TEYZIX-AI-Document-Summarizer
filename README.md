@@ -1,6 +1,6 @@
-==================================================
-AI-POWERED DOCUMENT SUMMARIZATION SYSTEM
-==================================================
+
+##AI-POWERED DOCUMENT SUMMARIZATION SYSTEM
+
 
 DESCRIPTION:
 This is an AI-powered system that automatically summarizes long documents 
@@ -10,9 +10,8 @@ frequency-based scoring to extract the most important sentences from any text.
 
 Perfect for: Research papers, articles, reports, emails, or any long-form text.
 
-==================================================
-HOW TO RUN:
-==================================================
+##HOW TO RUN:
+
 
 1. Install NLTK library:
    pip install nltk
@@ -28,9 +27,9 @@ HOW TO RUN:
 
 5. View the summary and export as needed
 
-==================================================
-FEATURES IMPLEMENTED:
-==================================================
+
+##FEATURES IMPLEMENTED:
+
 
 ✓ Multiple Input Methods:
   - Direct user text input from console
@@ -63,9 +62,9 @@ FEATURES IMPLEMENTED:
   - Clear variable naming
   - Comprehensive error handling
 
-==================================================
-TECHNICAL REQUIREMENTS SATISFIED:
-==================================================
+
+##TECHNICAL REQUIREMENTS SATISFIED:
+
 
 ✓ Python language used
 ✓ NLTK library for NLP
@@ -88,9 +87,9 @@ KEY LEARNINGS:
 - User input validation
 - Algorithm design for NLP tasks
 
-==================================================
-BONUS FEATURES:
-==================================================
+
+##BONUS FEATURES:
+
 
 - Adjustable summary length (5-90% range)
 - Character count reduction statistics
@@ -98,19 +97,18 @@ BONUS FEATURES:
 - UTF-8 encoding for special characters
 - Input validation for percentage range
 
-==================================================
-FILES INCLUDED:
-==================================================
+
+##FILES INCLUDED:
 
 - main.py (Complete source code)
 - sample_document.txt (Example document for testing)
 - output_summary.txt (Generated summary example)
-- README.txt (This file)
-- screenshots/ (Execution screenshots)
+- README.md (This file)
 
-==================================================
-EXAMPLE USAGE:
-==================================================
+
+
+##EXAMPLE USAGE:
+
 
 Input: "Artificial Intelligence is transforming industries. 
 Machine learning models are becoming more powerful. Natural 
@@ -119,9 +117,9 @@ Language Processing enables computers to understand human language."
 Summary (40%): "Artificial Intelligence is transforming industries. 
 Natural Language Processing enables computers to understand human language."
 
-==================================================
-CHALLENGES ADDRESSED:
-==================================================
+
+##CHALLENGES ADDRESSED:
+
 
 ✓ Handling multi-line text input efficiently
 ✓ Filtering out low-value words (stopwords)
@@ -130,4 +128,4 @@ CHALLENGES ADDRESSED:
 ✓ Validating user input for summary percentage
 ✓ Clean file export with proper encoding
 
-==================================================
+
