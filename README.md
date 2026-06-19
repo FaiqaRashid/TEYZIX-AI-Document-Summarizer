@@ -1,1 +1,0 @@
-# TEYZIX-AI-Document-Summarizer
