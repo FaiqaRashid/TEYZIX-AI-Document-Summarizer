@@ -1,0 +1,2 @@
+At its core, artificial intelligence refers to the simulation of human intelligence processes by machines and computer systems.
+Machine learning is a critical subset of artificial intelligence that focuses on building systems that learn from data.
